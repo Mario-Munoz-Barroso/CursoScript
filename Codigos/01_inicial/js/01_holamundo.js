@@ -9,7 +9,7 @@
 // console.timeEnd("Inicio JS");
 // //Variables
 // // tipo(acceso) nombre = valor
-//  const nombre = "Borja"
+  const NOMBRE = "Borja"
 //  (((((MMMAAAAALLLL!!!!))))) nombre = "otro" No puedes cambiar el valor a una constante
 // console.log ("Mi nombre es "+nombre)
 // var edad = 19 // en esta si se puede cambiar el valor
@@ -30,9 +30,13 @@ let variableObjeto = {
   hoobies: ["futbol", "cine"]
 };
 
+Edad= 19
+experiencias= true
+hoobies= ["futbol", "cine"]
+
 let fecha = new Date;
 let palabraObject = new String ("Nombre Objeto")
 
-console.log("Mi nombre es: "+Nombre+"y tengo "+edad+" y tengo experiencia: "+experiencia);
-console.log(`Mi nombre es : ${Nombre} y tengo ${edad} y tengo experiencia ${experiencia}`);
-console.log("Mi nombre es %s y tengo %d y mi experiencia es %b", Nombre, edad, experiencia);
+console.log("Mi nombre es: "+NOMBRE+"y tengo "+Edad+" y tengo experiencia: "+experiencias);
+console.log(`Mi nombre es : ${NOMBRE} y tengo ${Edad} y tengo experiencia ${experiencias}`);
+console.log("Mi nombre es %s y tengo %d y mi experiencia es %b", NOMBRE, Edad, experiencias);
