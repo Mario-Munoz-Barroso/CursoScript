@@ -13,12 +13,11 @@ class Persona {
 
   // Funciones
 
-  mostrarDatos(){
-      console.log(`Nombre: ${this.nombre}`)
-      console.log(`Apellido: ${this.apellido}`)
-      console.log(`Edad: ${this.edad}`)
+  mostrarDatos() {
+    console.log(`Nombre: ${this.nombre}`);
+    console.log(`Apellido: ${this.apellido}`);
+    console.log(`Edad: ${this.edad}`);
   }
 }
 let persona = new Persona("Borja", "Martin", 18);
-console.log(persona)
-
+console.log(persona);

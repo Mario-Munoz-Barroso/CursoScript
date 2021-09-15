@@ -18,13 +18,13 @@ for (let index = 0; index < baraja.length; index++) {
       carta = "K" + palos[index];
 
       //   console.log("K");
-    }else{
-    // console.log(index);
-    carta = index2 + palos[index];
+    } else {
+      // console.log(index);
+      carta = index2 + palos[index];
     }
-    baraja.push(carta)
+    baraja.push(carta);
   }
 }
-console.log(baraja)
+console.log(baraja);
 
-_.suffle(baraja)
+//_.suffle(baraja);
